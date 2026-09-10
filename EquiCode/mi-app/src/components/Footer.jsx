@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import WhatsAppIcon from "@/components/WhatsAppIcon";
 import { FaInstagram, FaLinkedinIn, FaGithub } from "react-icons/fa6";
 
-const LOGO = "../../public/favicon.webp"; // Update the path to your favicon image
+const LOGO = "/favicon.webp";
 
 const WA_NUMBER = "5491139259252";
 const DEFAULT_WA = "Hola Ezequiel, vi tu portfolio y quiero consultarte sobre un proyecto 🚀";

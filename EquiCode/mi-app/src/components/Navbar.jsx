@@ -2,15 +2,15 @@ import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 const LINKS = [
-  { label: "Servicios", to: "/#servicios", num: "01" },
+  { label: "Servicios", to: "/servicios", num: "01" },
   { label: "Proyectos", to: "/proyectos", num: "02" },
   { label: "Proceso", to: "/proceso", num: "03" },
-  { label: "Testimonios", to: "/#testimonios", num: "04" },
+  { label: "Testimonios", to: "/testimonios", num: "04" },
   { label: "FAQ", to: "/faq", num: "05" },
-  { label: "Contacto", to: "/#contacto", num: "06" },
+  { label: "Contacto", to: "/contacto", num: "06" },
 ];
 
-const LOGO = "../../public/favicon.webp"; // Update the path to your favicon image
+const LOGO = "/favicon.webp";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
