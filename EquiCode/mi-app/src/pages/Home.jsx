@@ -15,22 +15,38 @@ export default function Home() {
   return (
     <main className="snap-container">
       <Hero />
-      <Projects limit={4} />
-      <MountOnView intrinsicHeight="700px" fallback={<Fallback h="700px" />}>
-        <Suspense fallback={<Fallback h="700px" />}><Testimonios /></Suspense>
-      </MountOnView>
-      <MountOnView intrinsicHeight="1200px" fallback={<Fallback h="1200px" />}>
-        <Suspense fallback={<Fallback h="1200px" />}><Services /></Suspense>
-      </MountOnView>
-      <MountOnView intrinsicHeight="1400px" fallback={<Fallback h="1400px" />}>
-        <Suspense fallback={<Fallback h="1400px" />}><About /></Suspense>
-      </MountOnView>
+      
+      <div id="proyectos">
+        <Projects limit={4} />
+      </div>
+
+      <div id="testimonios">
+        <MountOnView intrinsicHeight="700px" fallback={<Fallback h="700px" />}>
+          <Suspense fallback={<Fallback h="700px" />}><Testimonios /></Suspense>
+        </MountOnView>
+      </div>
+
+      <div id="servicios">
+        <MountOnView intrinsicHeight="1200px" fallback={<Fallback h="1200px" />}>
+          <Suspense fallback={<Fallback h="1200px" />}><Services /></Suspense>
+        </MountOnView>
+      </div>
+
+      <div id="sobre-mi">
+        <MountOnView intrinsicHeight="1400px" fallback={<Fallback h="1400px" />}>
+          <Suspense fallback={<Fallback h="1400px" />}><About /></Suspense>
+        </MountOnView>
+      </div>
+
       <MountOnView intrinsicHeight="500px" fallback={<Fallback h="500px" />}>
         <Suspense fallback={<Fallback h="500px" />}><FinalCTA /></Suspense>
       </MountOnView>
-      <MountOnView intrinsicHeight="900px" fallback={<Fallback h="900px" />}>
-        <Suspense fallback={<Fallback h="900px" />}><Contact /></Suspense>
-      </MountOnView>
+
+      <div id="contacto">
+        <MountOnView intrinsicHeight="900px" fallback={<Fallback h="900px" />}>
+          <Suspense fallback={<Fallback h="900px" />}><Contact /></Suspense>
+        </MountOnView>
+      </div>
     </main>
   );
 }
