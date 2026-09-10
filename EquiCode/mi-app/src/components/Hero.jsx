@@ -67,26 +67,27 @@ export default function Hero() {
             </div>
 
             <h1 className="fluid-hero font-semibold text-balance">
-              Desarrollador
+              Desarrollo web
               <br />
-              <span className="text-muted-foreground">Frontend-Backend.</span>{" "}
-              <span className="text-gradient">Código Limpio.</span>
+              <span className="text-muted-foreground">profesional para</span>{" "}
+              <span className="text-gradient">tu negocio.</span>
             </h1>
 
             <p className="mt-8 max-w-xl text-lg leading-relaxed text-muted-foreground text-balance">
-              Ezequiel Riente — Desarrollador Web Frontend en Buenos Aires.
-              Transformo ideas en experiencias digitales modernas, accesibles y
-              escalables. Frontend con React, interfaces que conectan con las personas.
+              Ezequiel Riente — Diseño y desarrollo sitios web, aplicaciones y soluciones
+              digitales que ayudan a tu negocio a crecer. Frontend con React, enfocado en
+              resultados reales.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-4">
-              <Link to="/proyectos" className="group inline-flex items-center gap-2 bg-foreground px-6 py-3.5 text-sm font-medium text-background hover:bg-accent hover:text-accent-foreground transition-colors">
+              <a href="#contacto" className="group inline-flex items-center gap-2 bg-accent px-6 py-3.5 text-sm font-semibold text-accent-foreground hover:animate-pulse-accent transition-all">
+                Hablemos de tu proyecto
+                <span className="transition-transform group-hover:translate-x-1">→</span>
+              </a>
+              <Link to="/proyectos" className="group inline-flex items-center gap-2 border border-border px-6 py-3.5 text-sm font-medium hover:border-foreground transition-colors">
                 Ver proyectos
                 <span className="transition-transform group-hover:translate-x-1">→</span>
               </Link>
-              <a href="#contacto" className="inline-flex items-center gap-2 border border-border px-6 py-3.5 text-sm font-medium hover:border-foreground transition-colors">
-                Contactar
-              </a>
             </div>
           </div>
 

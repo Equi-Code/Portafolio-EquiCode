@@ -5,12 +5,12 @@ const LINKS = [
   { label: "Servicios", to: "/#servicios", num: "01" },
   { label: "Proyectos", to: "/proyectos", num: "02" },
   { label: "Proceso", to: "/proceso", num: "03" },
-  { label: "FAQ", to: "/faq", num: "04" },
-  { label: "Sobre mí", to: "/#sobre-mi", num: "05" },
+  { label: "Testimonios", to: "/#testimonios", num: "04" },
+  { label: "FAQ", to: "/faq", num: "05" },
   { label: "Contacto", to: "/#contacto", num: "06" },
 ];
 
-const LOGO = "/favicon.svg";
+const LOGO = "../../public/favicon.webp"; // Update the path to your favicon image
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -52,7 +52,7 @@ export default function Navbar() {
           <div className="flex h-16 items-center justify-between">
             <Link to="/" className="flex items-center gap-3">
               <img src={LOGO} alt="EquiCode" width="32" height="32" loading="eager" decoding="async" className="h-8 w-8 rounded-md" />
-              <span className="font-mono text-sm font-semibold tracking-tight text-gradient">EQUI/CODE</span>
+              <span className="font-mono text-sm font-semibold tracking-tight text-gradient">EquiCode</span>
               <span className="hidden sm:inline mono-label text-[10px]">BS-AS</span>
             </Link>
 
@@ -90,7 +90,7 @@ export default function Navbar() {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <img src={LOGO} alt="EquiCode" width="32" height="32" loading="eager" decoding="async" className="h-8 w-8 rounded-md" />
-                <span className="font-mono text-sm font-semibold text-gradient">EQUI/CODE</span>
+                <span className="font-mono text-sm font-semibold text-gradient">EquiCode</span>
               </div>
               <button onClick={() => setOpen(false)} className="mono-label p-2" aria-label="Cerrar menú">CERRAR ✕</button>
             </div>
