@@ -55,7 +55,7 @@ export default function AvisoLegal() {
           Aviso Legal y Política de Privacidad
         </h1>
         <p className="text-muted-foreground leading-relaxed mb-12">
-          El presente aviso legal regula el uso del sitio equi-code.netlify.app y establece las
+          El presente aviso legal regula el uso del sitio https://www.equicode.com.ar y establece las
           condiciones de acceso, navegación y tratamiento de datos. Al utilizar este sitio,
           aceptás las prácticas aquí descriptas.
         </p>
