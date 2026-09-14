@@ -3,66 +3,117 @@ import LazyImage from "@/components/LazyImage";
 
 const PROJECTS = [
   {
-    id: "magali", name: "Magalí Sol Cerezo", category: "Web Personal · Wellness", year: "2025",
-    thumbnail: "https://picsum.photos/seed/magali-sol/1600/1000?grayscale",
+    id: "magali",
+    name: "Magalí Sol Cerezo",
+    category: "Web Personal · Wellness",
+    year: "2026",
+    thumbnail: "/projects/magali.webp",
+    demo: "https://magalisolcerezo.com",
     problem: "Profesional holística sin presencia digital ni canal de reservas online.",
     solution: "Sitio personal con secciones de terapias, reservas online, testimonios y contacto integrado por WhatsApp e Instagram.",
     stack: ["HTML5", "CSS3", "JavaScript", "WebP"],
-    metrics: [{ label: "Terapias", value: "7" }, { label: "Sesiones", value: "Online" }, { label: "Reservas", value: "WhatsApp" }, { label: "Formato", value: "Responsive" }],
-    links: [{ label: "Ver sitio →", href: "https://magalisolcerezo.com" }],
+    metrics: [
+      { label: "Terapias", value: "7" },
+      { label: "Sesiones", value: "Online" },
+      { label: "Reservas", value: "WhatsApp" },
+      { label: "Formato", value: "Responsive" }
+    ],
+    links: [
+      { label: "Ver sitio →", href: "https://magalisolcerezo.com" }
+    ],
   },
   {
-    id: "consultores", name: "Consultores Modernos", category: "Corporativo · Legal & RRHH", year: "2025",
-    thumbnail: "https://picsum.photos/seed/consultores-modernos/1600/1000?grayscale",
+    id: "consultores",
+    name: "Consultores Modernos",
+    category: "Corporativo · Legal & RRHH",
+    year: "2025",
+    thumbnail: "/projects/consultores.webp",
     problem: "Estudio jurídico y de RRHH sin sitio profesional ni presentación de servicios.",
     solution: "Sitio corporativo con áreas de servicio, quiénes somos, misión y valores, FAQs y aviso legal.",
     stack: ["Google Sites", "No-Code", "SEO"],
-    metrics: [{ label: "Áreas", value: "RRHH + Legal" }, { label: "Equipo", value: "Abogados UBA" }, { label: "Aviso Legal", value: "✓" }, { label: "Contacto", value: "IG · LinkedIn" }],
+    metrics: [
+      { label: "Áreas", value: "RRHH + Legal" },
+      { label: "Equipo", value: "Abogados UBA" },
+      { label: "Aviso Legal", value: "✓" },
+      { label: "Contacto", value: "IG · LinkedIn" }
+    ],
     links: [{ label: "Ver sitio →", href: "https://www.consultoresmodernos.com" }],
   },
-  // {
-  //   id: "bagrie", name: "Bagrie Shop", category: "E-Commerce", year: "2024",
-  //   thumbnail: "https://picsum.photos/seed/bagrie-shop/1600/1000?grayscale",
-  //   problem: "Negocio sin presencia digital ni sistema de ventas online.",
-  //   solution: "E-commerce completo con carrito, gestión de productos y checkout. React + API REST.",
-  //   stack: ["React", "Node.js", "MongoDB", "Express"],
-  //   metrics: [{ label: "Revenue", value: "$48,340" }, { label: "Orders", value: "682" }, { label: "Products", value: "1,450" }, { label: "Conv. Rate", value: "4.2%" }],
-  //   links: [{ label: "Demo →", href: "https://bagrieshop.netlify.app/" }, { label: "GitHub", href: "https://github.com/Equi-Code/proyecto-bagrie" }],
-  // },
   {
-    id: "cotizaciones", name: "Cotizaciones Financieras", category: "FinTech", year: "2024",
-    thumbnail: "https://picsum.photos/seed/cotizaciones-fin/1600/1000?grayscale",
+    id: "cotizaciones",
+    name: "Cotizaciones Financieras",
+    category: "FinTech",
+    year: "2024",
+    thumbnail: "/projects/cotizaciones.webp",
     problem: "Cálculo manual de plazos fijos e info financiera dispersa.",
     solution: "App con cálculo de plazos fijos y cotizaciones en tiempo real. Une expertise financiero con frontend.",
     stack: ["JavaScript", "APIs REST", "CSS3"],
-    metrics: [{ label: "BTC/USD", value: "$48,920" }, { label: "Variación", value: "+2.34%" }, { label: "Plazo Fijo", value: "$124,580" }, { label: "TNA", value: "+24.58%" }],
-    links: [{ label: "Demo →", href: "https://equi-code.github.io/bagriecotizaciones/" }, { label: "GitHub", href: "https://github.com/Equi-Code/bagriecotizaciones" }],
+    metrics: [
+      { label: "BTC/USD", value: "$48,920" },
+      { label: "Variación", value: "+2.34%" },
+      { label: "Plazo Fijo", value: "$124,580" },
+      { label: "TNA", value: "+24.58%" }
+    ],
+    links: [
+      { label: "Demo →", href: "https://equi-code.github.io/bagriecotizaciones/" },
+      { label: "GitHub", href: "https://github.com/Equi-Code/bagriecotizaciones" }
+    ],
   },
   {
-    id: "oestech", name: "OESTECH", category: "Corporativo", year: "2024",
-    thumbnail: "https://picsum.photos/seed/oestech-corp/1600/1000?grayscale",
+    id: "oestech",
+    name: "OESTECH",
+    category: "Corporativo",
+    year: "2024",
+    thumbnail: "/projects/oestech.webp",
     problem: "Empresa tech sin sitio web profesional ni identidad digital.",
     solution: "Sitio corporativo responsive con animaciones, SEO y performance optimizada.",
     stack: ["HTML5", "CSS3", "JavaScript"],
-    metrics: [{ label: "Servicios", value: "Web Dev" }, { label: "Soporte", value: "IT" }, { label: "Cloud", value: "✓" }, { label: "SEO", value: "✓" }],
-    links: [{ label: "Demo →", href: "https://equi-code.github.io/OESTECH/" }, { label: "GitHub", href: "https://github.com/Equi-Code/OESTECH" }],
+    metrics: [
+      { label: "Servicios", value: "Web Dev" },
+      { label: "Soporte", value: "IT" },
+      { label: "Cloud", value: "✓" },
+      { label: "SEO", value: "✓" }
+    ],
+    links: [
+      { label: "Demo →", href: "https://equi-code.github.io/OESTECH/" },
+      { label: "GitHub", href: "https://github.com/Equi-Code/OESTECH" }
+    ],
   },
   {
-    id: "backend", name: "Back-End Node.js", category: "Backend", year: "2025",
+    id: "backend",
+    name: "Back-End Node.js",
+    category: "Backend",
+    year: "2025",
     thumbnail: "https://picsum.photos/seed/backend-node/1600/1000?grayscale",
     problem: "API sin arquitectura escalable ni autenticación segura.",
     solution: "API RESTful con arquitectura por capas, JWT, Firebase Firestore y deploy en Vercel.",
     stack: ["Node.js", "JWT", "Firebase", "Vercel"],
-    metrics: [{ label: "Uptime", value: "99.9%" }, { label: "Auth", value: "JWT" }, { label: "DB", value: "Firestore" }, { label: "Deploy", value: "Vercel" }],
-    links: [{ label: "Demo →", href: "https://back-end-node-js-pf-r7nu.vercel.app/" }, { label: "GitHub", href: "https://github.com/Equi-Code/Back-End-Node-JS-PF" }],
+    metrics: [
+      { label: "Uptime", value: "99.9%" },
+      { label: "Auth", value: "JWT" },
+      { label: "DB", value: "Firestore" },
+      { label: "Deploy", value: "Vercel" }
+    ],
+    links: [
+      { label: "Demo →", href: "https://back-end-node-js-pf-r7nu.vercel.app/" },
+      { label: "GitHub", href: "https://github.com/Equi-Code/Back-End-Node-JS-PF" }
+    ],
   },
   {
-    id: "esol", name: "E-Commerce Esol", category: "Full Stack", year: "2024",
+    id: "esol",
+    name: "E-Commerce Esol",
+    category: "Full Stack",
+    year: "2024",
     thumbnail: "https://picsum.photos/seed/esol-ecommerce/1600/1000?grayscale",
     problem: "Gestión de inventario sin actualizaciones en tiempo real.",
     solution: "Backend con API REST, WebSockets live y arquitectura MVC. Proyecto final ESOL.",
     stack: ["Node.js", "Express", "Socket.IO", "MongoDB"],
-    metrics: [{ label: "Productos", value: "1,248" }, { label: "Estado", value: "Live" }, { label: "Real-time", value: "Socket.IO" }, { label: "Usuarios", value: "3 en vivo" }],
+    metrics: [
+      { label: "Productos", value: "1,248" },
+      { label: "Estado", value: "Live" },
+      { label: "Real-time", value: "Socket.IO" },
+      { label: "Usuarios", value: "3 en vivo" }
+    ],
     links: [{ label: "Ver código", href: "https://github.com/Equi-Code/Proyecto-Final-Esol" }],
   },
 ];
