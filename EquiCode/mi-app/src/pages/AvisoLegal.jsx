@@ -4,7 +4,7 @@ const SECTIONS = [
   {
     id: "responsable",
     title: "1. Responsable del tratamiento",
-    body: "El responsable del tratamiento de los datos personales recogidos a través de este sitio es Ezequiel Riente (EquiCode), con domicilio en Buenos Aires, Argentina. Podés contactarlo a través de hello@equi-code.dev o por WhatsApp al +54 9 11 3925 9252.",
+    body: "El responsable del tratamiento de los datos personales recogidos a través de este sitio es Ezequiel Riente (EquiCode), con domicilio en Buenos Aires, Argentina. Podés contactarlo a través de ezequielrientecode@gmail.com o por WhatsApp al +54 9 11 3925 9252.",
   },
   {
     id: "finalidad",
@@ -24,7 +24,7 @@ const SECTIONS = [
   {
     id: "derechos",
     title: "5. Derechos del interesado",
-    body: "Podés ejercer en cualquier momento tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a hello@equi-code.dev. También podés presentar una reclamación ante la autoridad de control competente.",
+    body: "Podés ejercer en cualquier momento tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a ezequielrientecode@gmail.com. También podés presentar una reclamación ante la autoridad de control competente.",
   },
   {
     id: "propiedad",
